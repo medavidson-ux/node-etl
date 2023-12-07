@@ -1,0 +1,26 @@
+{
+  "name": "etl",
+  "version": "1.0.0",
+  "description": "extract, transform and load",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ext": "js",
+    "ignore": [
+      "json/*",
+      "*.test.ts",
+      "db/*"
+    ],
+    "delay": "2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "nodemon": "^3.0.1"
+  }
+}
